@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>TwitFilter</title>
+</head>
+<body>
+
+<h1>TwitFilter</h1>
+<ul class="tweets"></div>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="TwitFilter.js"></script>
+
+<script>
+$('ul.tweets').TwitFilter({
+	search: 'web',
+	limit: 17,
+	transition: 'slideToggle',
+	refresh: 5000
+});
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
